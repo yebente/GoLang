@@ -14,4 +14,4 @@ false
 false
 true
 
-Hint: Use fmt.Println() to print each line of the output.
+Hint: Use fmt.Println() to print each line of the output. Also the operators &&, ||, ! for all the boolean outputs.
