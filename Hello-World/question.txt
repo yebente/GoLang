@@ -1,0 +1,3 @@
+Write a Go code snippet that produces the following output:
+
+hello world
