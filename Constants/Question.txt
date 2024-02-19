@@ -5,11 +5,16 @@ constant
 600000000000
 -0.28470407323754404
 
-Hint: Use constant declarations with const and fmt.Println() to print each line of the output.
+Hint: Use 
+- n = 500000000
+- fmt.Println() 
+- d = 3e20 / n
+- int64
+- math.Sin
 
 Learning:
-- const declares a constant value.
-- A const statement can appear anywhere a var statement can.
+- const declares a constant value (n = 500000000)
+- A const statement can appear anywhere a var statement can (d = 3e20 / n)
 - Constant expressions perform arithmetic with arbitrary precision.
 - A numeric constant has no type until it’s given one, such as by an explicit conversion.
 - A number can be given a type by using it in a context that requires one, such as a variable assignment or function call. For example, here math.Sin expects a float64.
