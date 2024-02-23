@@ -10,4 +10,6 @@ func main() {
 	fmt.Println(musician)
 	fmt.Println(music)
 	fmt.Println(language)
+
+	Test change
 }
